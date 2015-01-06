@@ -1,0 +1,4 @@
+---
+:oauth:
+  :consumer_key: #add key here
+  :consumer_secret: #secret here
