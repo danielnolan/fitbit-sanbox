@@ -50,7 +50,7 @@ puts "Current User is: "+user_id
 config[:oauth].merge!(:token => access_token.token, :secret => access_token.secret, :user_id => user_id)
 
 # Write the whole oauth token set back to the config file
-File.open(".fitgem.yml", "w") {|f| f.write(config.to_yaml) }
+File.open("fitgem.yml", "w") {|f| f.write(config.to_yaml) }
 end
 
 # ============================================================
